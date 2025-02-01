@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="box">
+        <h1>Combinations</h1>
+        <textarea name="data" id="input" spellcheck="false"></textarea><br>
+        <button onclick="find_combinations()">Submit</button><br>
+        <h2>Total Combinations: <span id="combination">0</span></h2>
+        <div class="icon">
+            <button onclick="copy()"><i class="fa-regular fa-copy fa-2xs"></i></button>
+        </div>
+        <div class="main_block">
+            <textarea class="result" id="result" spellcheck="false"></textarea>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
